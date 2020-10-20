@@ -15,4 +15,8 @@ def factorial (number: int):
 def capitalizeFormat (string: str):
     return string.capitalize()
 
-    
+def prueba(number):
+    if (isEven(number)):
+        return number * 2
+    else:
+        return number * 5
